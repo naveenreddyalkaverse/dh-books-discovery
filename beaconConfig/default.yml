@@ -1,0 +1,22 @@
+url: http://beacon.rtp.dailyhunt.in/topics/analytics-events
+defaultProperties:
+  session_source: organic
+  user_handset_maker: LENOVO
+  user_app_ver: 6.0.27
+  user_connection: 2G
+  user_os_platform: android
+  user_handset_model: LENOVO-Lenovo K50a40
+  user_os_ver: 5.0
+  user_os_name: rel
+types:
+  search_query:
+    event_section: books
+    event_name: search_query
+    event_attribution: organic
+    pv_event: false
+  search_result:
+    event_section: books
+    event_name: search_result
+    event_attribution: organic
+    pv_event: false
+
