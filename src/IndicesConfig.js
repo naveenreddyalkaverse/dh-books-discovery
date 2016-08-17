@@ -5,7 +5,7 @@ import Path from 'path';
 
 import Config from 'config-boilerplate/lib/Config';
 
-import AnalysisSetting from 'dh-humane-indexer/lib/schemas/analysis_setting';
+import AnalysisSetting from 'humane-indexer/lib/schemas/analysis_setting';
 import BookMapping from './schemas/book_mapping';
 import AutocompleteMapping from './schemas/autocomplete_mapping';
 import SearchQueryMapping from './schemas/search_query_mapping';

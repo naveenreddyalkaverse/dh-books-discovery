@@ -1,6 +1,6 @@
 {
   "name": "dh-books-discovery",
-  "version": "0.0.2",
+  "version": "2.0.2",
   "description": "DailyHunt's Books Discovery Module Powered by 360fy",
   "scripts": {
     "lint": "eslint ./src/",
@@ -12,19 +12,20 @@
     "registry":"http://artifactory.newshunt.com/nexus/content/repositories/npm-snapshots/"
   },
   "main": "./lib/index.js",
-  "author": "SS",
+  "author": "Verse",
   "license": "DH",
   "dependencies": {
     "agentkeepalive": "^2.0.5",
     "babel-runtime": "^6.6.1",
     "bluebird": "^3.3.4",
     "config-boilerplate": "^1.1.0",
-    "dh-humane-indexer": "http://artifactory.newshunt.com/nexus/content/repositories/npm-snapshots/dh-humane-indexer/-/dh-humane-indexer-0.0.3.tgz",
+    "humane-indexer": "http://artifactory.newshunt.com/nexus/content/repositories/npm-snapshots/humane-indexer/-/humane-indexer-2.0.2.tgz",
     "lodash": "^4.6.1",
     "md5": "^2.1.0",
     "request": "^2.69.0"
   },
   "devDependencies": {
+    "babel-cli" : "^6.10.1",
     "babel-core": "^6.7.2",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-node5": "^11.0.0",
@@ -32,7 +33,7 @@
     "babel-plugin-transform-runtime": "^6.6.0",
     "eslint": "^2.4.0",
     "eslint-config-360fy": "^1.1.0",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint-plugin-react": "^5.1.1"
   },
   "eslintConfig": {
     "extends": "360fy"

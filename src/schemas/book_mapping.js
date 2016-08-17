@@ -13,7 +13,7 @@ import {
   $VernacularKeyword,
   $IdentityText,
   $NotIndexedText
-} from 'dh-humane-indexer/lib/schemas/mapping_types';
+} from 'humane-indexer/lib/schemas/mapping_types';
 
 const PriceProperties = {
     type: 'nested',

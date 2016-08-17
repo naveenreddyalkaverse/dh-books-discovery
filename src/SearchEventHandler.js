@@ -5,7 +5,7 @@ import Promise from 'bluebird';
 import Request from 'request';
 import md5 from 'md5';
 
-const Url = process.env.NODE_ENV === 'production' ? 'http://localhost:3000/dhBooks/indexer/api' : 'http://localhost/dhBooks/indexer/api';
+const Url = process.env.NODE_ENV === 'production' ? 'http://localhost:3000/dhBooks/indexer/api' : 'http://localhost:3000/dhBooks/indexer/api';
 
 export default class SearchEventHandler {
     constructor() {

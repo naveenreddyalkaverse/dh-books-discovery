@@ -6,7 +6,7 @@ import {
   $VernacularText,
   $Text,
   $IdentityText
-} from 'dh-humane-indexer/lib/schemas/mapping_types';
+} from 'humane-indexer/lib/schemas/mapping_types';
 
 export default {
     _all: {
